@@ -1,24 +1,57 @@
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
 }
 
 h1 {
-  margin-top: 0;
+  font-size: 90px;
+  margin-top: 50px;
+  margin-bottom: 0px;
   font-family: 'Sacramento', cursive;
+  color: #66BFBF;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  margin: 30px;
+  color: #11999E;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  margin: 60px auto 50px auto;
+  border-style: none;
+  height: 0px;
+  border-top: 7px dotted;
+  width: 3%;
+  border-color: #EAF6F6;
 }
 
 .top-container {
-  background-color: #E4F9F5;
+  background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
 }
@@ -28,18 +61,21 @@ h3 {
 }
 
 .bottom-container {
-
+  color: #EAF6F6;
+  padding-top: 55px;
+  background-color: #66BFBF;
+  padding-bottom: 33px
 }
 
 .top-cloud {
   position: absolute;
-  right: 650px;
+  right: 550px;
   top: 50px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 650px;
+  left: 550px;
   bottom: 300px;
 }
 
@@ -47,10 +83,46 @@ h3 {
   border-radius: 100%;
   border: 300px;
 }
+
 .computer {
   border-radius: 100%;
 }
+
 .guitar {
   border-radius: 100%;
   height: 400px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 130px auto 130px auto;
+  text-align: left;
+}
+
+.skill-text {
+  line-height: 2;
+}
+
+.computer {
+  border-radius: 100%;
+  height: 200px;
+  float: left;
+  margin-right: 30px;
+  position: relative;
+  bottom: 40px;
+}
+
+.guitar {
+  border-radius: 100%;
+  height: 200px;
+  float: right;
+  margin-left: 30px;
+  position: relative;
+  bottom: 40px;
+}
+
+#copyright-text {
+  font-size: 0.75rem;
+  margin-top: 40px;
+  color: #EAF6F6;
 }
